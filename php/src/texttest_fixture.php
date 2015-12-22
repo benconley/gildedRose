@@ -19,7 +19,7 @@ $days = 5;
 if (isset($argv) && count($argv) > 1) {
     $days = (int) $argv[1];
 }
-echo("<pre>");
+//echo("<pre>");
 for ($i = 0; $i < $days; $i++) {
     echo("-------- day $i --------\n");
     echo("name, sellIn, quality\n");
@@ -29,4 +29,4 @@ for ($i = 0; $i < $days; $i++) {
     echo PHP_EOL;
     $app->update_quality();
 }
-echo("</pre>");
+//echo("</pre>");
